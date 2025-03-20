@@ -1,0 +1,82 @@
+html,
+body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@media screen and (min-width: 1800px) {
+	:root {
+		--table-border: 1px solid #0000001c;
+		--blue: #0064d9;
+		--font-color: rgb(255, 255, 255);
+		--bg-color: rgb(255, 255, 255);
+		--dynamic-page-bg-color: #f3f3f3;
+		--table-height: 75vh;
+		--modal-width: 400px;
+		--nav-height: 92vh;
+		--content-height: 92vh;
+		--nav-top: 50px;
+		--nav-position: fixed;
+		--padding-left-medium-device: 0px;
+		--modal-width: 400px;
+	}
+}
+@media screen and (max-width: 1800px) {
+	:root {
+		--table-height: 75vh;
+		--blue: #0064d9;
+		--bg-color: rgb(255, 255, 255);
+		--table-border: 1px solid #0000001c;
+		--dynamic-page-bg-color: #f3f3f3;
+		--font-color: rgb(87, 87, 87);
+		--font-size-medium: 20px;
+		--font-size-small: 12px;
+		--nav-height: 100vh;
+		--content-height: 100vh;
+		--nav-top: 50px;
+		--nav-position: fixed;
+		--padding-left-medium-device: 0px;
+		--modal-width: 400px;
+	}
+}
+@media screen and (max-width: 1400px) {
+	:root {
+		--table-height: 65vh;
+		--blue: #0064d9;
+		--bg-color: rgb(255, 255, 255);
+		--table-border: 1px solid #0000001c;
+		--dynamic-page-bg-color: #f3f3f3;
+		--font-color: rgb(87, 87, 87);
+		--font-size-medium: 20px;
+		--font-size-small: 12px;
+		--nav-height: 87vh;
+		--content-height: 87vh;
+		--nav-top: 50px;
+		--nav-position: fixed;
+		--padding-left-medium-device: 0px;
+		--modal-width: 400px;
+	}
+}
+
+/* For Chrome, Safari, and Opera */
+::-webkit-scrollbar {
+	width: 10px; /* Width of the vertical scrollbar */
+	height: 10px; /* Height of the horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1; /* Background of the scrollbar track */
+	border-radius: 5px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888; /* Color of the scrollbar thumb */
+	border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555; /* Color of the thumb on hover */
+}
